@@ -1,23 +1,23 @@
-
-* { 
-   margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.package{
+
+body {
     height: 100vh;
     width: 100vw;
 }
-header{
 
-margin: 30px 
+header {
 
+    margin: 30px
 }
 
 
 
-.meu-link{
+.meu-link {
     width: 83px;
     height: 21px;
     margin-right: 32px;
@@ -29,7 +29,8 @@ margin: 30px
     color: #17233D;
     cursor: pointer;
 }
-.button-sign-up{
+
+.button-sign-up {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -39,22 +40,27 @@ margin: 30px
     border: 1px solid #4CB538;
     border-radius: 6px;
     cursor: pointer;
-    height:40px ;
-    width:124px ;
+    height: 40px;
+    width: 124px;
 }
 
-img{
-display: inline-block;
-margin: 50px 84px 0 121px;
+div {
+    display: inline-block;
+    
+    margin: 679px 84px 0 121px;
 
 
 }
- section{
+
+
+
+section {
     display: inline-block;
     position: absolute;
-    
- }
- h1{
+
+}
+
+h1 {
     font-weight: 700;
     font-size: 62px;
     line-height: 82px;
@@ -62,8 +68,9 @@ margin: 50px 84px 0 121px;
     margin-bottom: 47px;
     letter-spacing: 0.596154px;
     color: #161A49;
- }
- p{
+}
+
+p {
     width: 300px;
     font-weight: 400;
     font-size: 18px;
@@ -72,7 +79,8 @@ margin: 50px 84px 0 121px;
     margin-bottom: 55px;
     color: #4B505A;
 }
-a{
+
+a {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -81,10 +89,55 @@ a{
     color: #6FBF44;
 }
 
-@media screen  and (max-width: 440px){
-    .package{
+@media (max-width: 802px) {
+
+    body {
         height: 100vh;
         width: 50%;
-    
+        overflow-y: auto;
+
+    }
+
+    .meu-link {
+        display: none;
+
+    }
+    .button-sign-up{
+        
+        position: absolute;
+        left: 170px;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   div{
+    margin-bottom: -495px;
+   }
+
+    img {
+        margin-bottom: 100px;
+        display: block;
+        width: 340px;
+        margin-left: -109px;
+       
+    }
+
+    section {
+        display: flex;
+        display: block;
+       
+        text-align: center;
+
+    }
+    section h1{
+      text-align: center;
+      width: 322px;
+      font-size: 44px;
+    }
+
+    p {
+        margin-left: 1px;
+    }
+
 }
- }
